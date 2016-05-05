@@ -1,43 +1,49 @@
 {
-  "name": "i18next-resource-store-loader-yaml",
-  "version": "0.0.2",
   "author": {
-    "name": "Kruno Markotic (kruno.markotic@gmx.net)"
+    "name": "Kruno Markotic",
+    "url": "kruno.markotic@gmx.net"
+  },
+  "bugs": {
+    "url": "https://github.com/krunom/i18next-resource-store-loader-yaml/issues"
+  },
+  "dependencies": {
+    "js-yaml": "^3.6.0",
+    "loader-utils": "^0.2.11"
   },
   "description": "a resStore loader for webpack and i18next - fork of i18next-resource-store-loader",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "gulp": "^3.8.10",
+    "gulp-mocha": "^1.1.1",
+    "gulp-util": "^3.0.1"
+  },
+  "directories": {},
+  "homepage": "https://github.com/krunom/ - fork of i18next-resource-store-loader-yaml",
+  "keywords": [
+    "i18next",
+    "loader",
+    "resource",
+    "static",
+    "webpack"
+  ],
   "licenses": [
     {
       "type": "MIT",
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
   ],
-  "keywords": [
-    "webpack",
-    "i18next",
-    "static",
-    "resource",
-    "loader"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/krunom/i18next-resource-store-loader-yaml"
-  },
-  "homepage": "https://github.com/krunom/i18next-resource-store-loader-yaml",
   "maintainers": [
     {
       "name": "Kruno Markotic",
       "email": "kruno.markotic@gmx.net"
     }
   ],
-  "dependencies": {
-    "js-yaml": "^3.6.0",
-    "loader-utils": "^0.2.11",
-    "lodash": "^4.6.1"
+  "name": "i18next-resource-store-loader-yaml",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krunom/i18next-resource-store-loader-yaml.git"
   },
-  "devDependencies": {
-    "chai": "^1.9.2",
-    "gulp": "^3.8.10",
-    "gulp-mocha": "^1.1.1",
-    "gulp-util": "^3.0.1"
-  }
+  "scripts": {},
+  "version": "0.0.3"
 }
