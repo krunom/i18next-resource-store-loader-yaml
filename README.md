@@ -2,7 +2,7 @@
 
 `npm install i18next-resource-store-loader-yaml`
 
-This is a form of https://github.com/atroo/i18next-resource-store-loader
+This is a fork of https://github.com/atroo/i18next-resource-store-loader
 
 Its usage is exactly the same except that it loads YAML files instead of JSON.
 
